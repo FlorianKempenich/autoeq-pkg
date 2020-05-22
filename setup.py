@@ -4,7 +4,7 @@ from distutils.core import setup
 
 setup(
     name='autoeq',
-    version='1.2.1',
+    version='1.2.2',
     author='Jaakko Pasanen',
     packages=['autoeq'],
     scripts=[],
@@ -19,7 +19,7 @@ setup(
         'pandas~=0.25.1',
         'scipy~=1.3.1',
         'numpy~=1.17.2',
-        'tensorflow~=2.0.0',
+        'tensorflow~=2.2.0',
         'tabulate~=0.8.5',
         'soundfile~=0.10.2'
     ]
